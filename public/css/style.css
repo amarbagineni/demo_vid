@@ -13,20 +13,27 @@ body {
 
 /* Content Styles here  */
 
-.content-container {
+.content-header-container {
     display: flex;
     padding: 10px;
     border: 1px solid #aaa;
     margin-top: 20px;
 }
 
-.content-container .video-upload {
+.content-header-container .video-upload {
     margin-left: auto;
 }
 
-.content-container .error-message {
+.content-header-container .error-message {
     color: red;
     display: none;
+}
+
+.content-container {
+    display: flex;
+    padding: 10px;
+    border: 1px solid #aaa;
+    margin-top: 20px;
 }
 
 

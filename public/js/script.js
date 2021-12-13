@@ -14,5 +14,6 @@ function hideMessage(id, message) {
 
 function startupload() {
     console.log("Start the video uploda here");
-    showMessage("upload-error", "Someerror from func")
+    showMessage("upload-error", "Someerror from func");
+
 }
