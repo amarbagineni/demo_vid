@@ -36,5 +36,19 @@ body {
     margin-top: 20px;
 }
 
+.content-container .sidebar {
+    color: green;
+    padding: 10px;
+}
+
+.video-item {
+    display: flex;
+    cursor: pointer;
+}
+
+.video-item:hover {
+    text-decoration: underline;
+}
+
 
 /* END: Content Styles here  */
