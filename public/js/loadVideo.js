@@ -7,7 +7,6 @@
 
 // load video to the player : with inital phase as paused | Shubham
 function loadVideo1(video) {
-    console.log(video, 'fsdfs')
     videoData = typeof video === 'string' ? JSON.parse(video) : video;
 
     // Load the video from the GCS 
